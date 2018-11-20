@@ -56,5 +56,13 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This will allow you to post to the activity feed and update your profile image.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This allows us to let you choose which photos to post to the activity feed or use as your profile image.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This allows us to add the photos you take to your camera roll.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>TODO: Your message to user when the microphone is accessed for the first time</string>
 </dict>
 </plist>
