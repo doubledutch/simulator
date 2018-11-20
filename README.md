@@ -25,8 +25,6 @@ NodeJS v11.2 was used.
    1. Pin version in `package.json`
 1. Install [react-native-youtube](https://www.npmjs.com/package/react-native-youtube)
    1. `yarn add react-native-youtube`
+   1. `react-native link react-native-youtube`
+   1. `cp ./node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html ios/extensionsimulator.xcodeproj/`
    1. Pin version in `package.json`
-
-```javascript
-const nativeModules = ['react-native-camera@0.10.0', 'react-native-fetch-blob@0.10.8', 'react-native-video@2.0.0', 'react-native-youtube@1.0.1']
-```
