@@ -20,6 +20,12 @@ NodeJS v11.2 was used.
    1. `yarn add react-native-fetch-blob`
    1. `RNFB_ANDROID_PERMISSIONS=true react-native link react-native-fetch-blob`
    1. Pin version in `package.json`
+1. Install [react-native-video](https://www.npmjs.com/package/react-native-video)
+   1. `yarn add react-native-video`
+   1. Pin version in `package.json`
+1. Install [react-native-youtube](https://www.npmjs.com/package/react-native-youtube)
+   1. `yarn add react-native-youtube`
+   1. Pin version in `package.json`
 
 ```javascript
 const nativeModules = ['react-native-camera@0.10.0', 'react-native-fetch-blob@0.10.8', 'react-native-video@2.0.0', 'react-native-youtube@1.0.1']
