@@ -16,9 +16,9 @@ NodeJS v11.2 was used.
    1. `yarn add react-native-camera`
    1. `react-native link react-native-camera`
    1. Pin version in `package.json` (remove ^, e.g. `"react-native-camera": "1.4.3"`)
-1. Install [react-native-fetch-blob](https://www.npmjs.com/package/react-native-fetch-blob)
-   1. `yarn add react-native-fetch-blob`
-   1. `RNFB_ANDROID_PERMISSIONS=true react-native link react-native-fetch-blob`
+1. Install [rn-fetch-blob](https://www.npmjs.com/package/rn-fetch-blob)
+   1. `yarn add rn-fetch-blob`
+   1. `RNFB_ANDROID_PERMISSIONS=true react-native link rn-fetch-blob`
    1. Pin version in `package.json`
 1. Install [react-native-video](https://www.npmjs.com/package/react-native-video)
    1. `yarn add react-native-video`
@@ -28,3 +28,4 @@ NodeJS v11.2 was used.
    1. `react-native link react-native-youtube`
    1. `cp ./node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html ios/extensionsimulator.xcodeproj/`
    1. Pin version in `package.json`
+1. Run on iOS: `react-native run-ios`
