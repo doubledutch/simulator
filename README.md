@@ -29,3 +29,7 @@ NodeJS v11.2 was used.
    1. `cp ./node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html ios/extensionsimulator.xcodeproj/`
    1. Pin version in `package.json`
 1. Run on iOS: `react-native run-ios`
+1. Update @doubledutch/cli
+   1. Versions in bundles/make/package.json
+   1. Review bundles/make/base.js
+   
