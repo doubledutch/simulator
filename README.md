@@ -11,7 +11,9 @@ DoubleDutch Extension Simulator
 1. Click the RUN icon.
 
 This will build and install the DoubleDutch simulator app to your selected iPhone simulator.
-You will likely see a red error screen due to not having a React Native packager running.
+You should no longer need to build the simulator project in XCode. In the future, simply open
+the DoubleDutch simulator app from the iOS Simulator device.
+You will at first likely see a red error screen due to not having a React Native packager running.
 
 To launch a packager:
 
