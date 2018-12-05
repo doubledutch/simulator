@@ -1,13 +1,41 @@
 DoubleDutch Extension Simulator
 ===============================
 
-## Updating to React Native 0.57.5
+## Quick Start
+
+1. Clone this repository `git clone git@github.com:doubledutch/simulator.git`
+1. `cd` into cloned project folder.
+1. `yarn` to install dependencies
+1. Open XCode and open `ios/extensionsimulator.xcodeproj`
+1. Near the top left of the XCode window, select a simulator iPhone target, e.g. `iPhone XS`.
+1. Click the RUN icon.
+
+This will build and install the DoubleDutch simulator app to your selected iPhone simulator.
+You will likely see a red error screen due to not having a React Native packager running.
+
+To launch a packager:
+
+1. Open a DoubleDutch extension project folder that is set up for `baseBundleVersion` `0.57.5`.
+1. From the `mobile` folder, run `npm start` (which simply invokes `react-native start --port 8081`)
+
+Refresh the extension in the simulator (`command-R`), which will attempt to reload the
+bundled Javascript from the packager now listening on port 8081.
+
+### Developing multiple extensions
+
+If you work on multiple extensions, you can switch between them by simply stopping the
+React Native packager for one extension and starting it (`npm start` from the `mobile` folder)
+for another extension. Refresh the simulator (`command-R`) to load this extension.
+
+## Internal simulator implementation notes
+
+### Updating to React Native 0.57.5
 
 The following steps were taken to create this project.
 NodeJS v11.2 was used.
 
 1. `react-native init extensionsimulator`
-1. Update iOS Info.plist with strings from [DoubleDutch iOS strings](https://ddgit.me/Flock/flock4-iOS/blob/master/Flock/Base.lproj/InfoPlist.strings)
+1. Update iOS Info.plist with strings from DoubleDutch iOS strings: `Base.lproj/InfoPlist.strings`
    1. NSCameraUsageDescription
    1. NSPhotoLibraryUsageDescription
    1. NSPhotoLibraryAddUsageDescription: `This allows us to add the photos you take to your camera roll.`
