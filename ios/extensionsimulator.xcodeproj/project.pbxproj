@@ -40,6 +40,7 @@
 		8B5E709E3EA54D5AB0A01FD1 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 670E57C109CD400E912993E7 /* libRNCamera.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C107A7DB85AD4B8B9F0C8F5D /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB32B85EAD1A4CA9BC0CA57F /* libRNFetchBlob.a */; };
+		D2C1614321C1B1FB00196975 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = D2C1611821C1B1FB00196975 /* YTPlayerView-iframe-player.html */; };
 		D9093E69ED874206819F48A4 /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0202D117B14B2883A97A3C /* libRCTYouTube.a */; };
 		F7B5FD0825A646D5805BEC0B /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F92BED0ADAC46078FCD742D /* libRCTVideo.a */; };
 /* End PBXBuildFile section */
@@ -388,6 +389,7 @@
 		8F92BED0ADAC46078FCD742D /* libRCTVideo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTVideo.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		CB32B85EAD1A4CA9BC0CA57F /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
+		D2C1611821C1B1FB00196975 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		D3490FCCA45446B1AF5F14A1 /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTYouTube.xcodeproj; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; };
 		FE0202D117B14B2883A97A3C /* libRCTYouTube.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTYouTube.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -532,6 +534,7 @@
 		13B07FAE1A68108700A75B9A /* extensionsimulator */ = {
 			isa = PBXGroup;
 			children = (
+				D2C1611821C1B1FB00196975 /* YTPlayerView-iframe-player.html */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -1211,6 +1214,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D2C1614321C1B1FB00196975 /* YTPlayerView-iframe-player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
