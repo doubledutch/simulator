@@ -15,6 +15,7 @@
     "rn-fetch-blob": "0.10.15"
   },
   "devDependencies": {
+    "jest-haste-map": "^24.5.0",
     "@babel/core": "^7.3.4",
     "@babel/runtime": "^7.3.4",
     "babel-jest": "^24.5.0",
