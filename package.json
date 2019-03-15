@@ -9,10 +9,10 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.1",
-    "react-native-camera": "1.4.3",
-    "react-native-video": "3.2.1",
+    "react-native-camera": "2.0.1",
+    "react-native-video": "4.4.0",
     "react-native-youtube": "1.1.0",
-    "rn-fetch-blob": "0.10.13"
+    "rn-fetch-blob": "0.10.15"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
