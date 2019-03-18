@@ -22,7 +22,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to the DoubleDutch Developer Platform with React Native!</Text>
-        <Text style={styles.instructions}>To get started, run 'npm start' from the 'mobile' folder of your extension.</Text>
+        <Text style={styles.instructions}>To get started, close the current Metro Bundler terminal window and run 'npm start' from the 'mobile' folder of your extension.</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );
