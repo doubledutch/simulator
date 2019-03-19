@@ -3,6 +3,17 @@ DoubleDutch Extension Simulator
 
 ## Quick Start
 
+### Launch packager
+
+Launch a React Native packager for your extension.
+
+1. Open a DoubleDutch extension project folder that is set up for `baseBundleVersion` `0.59.1`.
+1. From the `mobile` folder, run `npm start` (which simply invokes `react-native start --port 8081`)
+
+You can choose to use either the iOS or Android simulator (or both) as follows:
+
+### iOS Simulator
+
 1. Clone this repository `git clone git@github.com:doubledutch/simulator.git`
 1. `cd` into cloned project folder.
 1. `npm i` to install dependencies
@@ -15,13 +26,20 @@ You should no longer need to build the simulator project in XCode. In the future
 the DoubleDutch simulator app from the iOS Simulator device.
 You will at first likely see a red error screen due to not having a React Native packager running.
 
-To launch a packager:
+### Android
 
-1. Open a DoubleDutch extension project folder that is set up for `baseBundleVersion` `0.57.5`.
-1. From the `mobile` folder, run `npm start` (which simply invokes `react-native start --port 8081`)
+1. Download the latest release of the
+   [DoubleDutch Simulator APK](https://github.com/doubledutch/simulator/releases)
+1. Open [Android Studio](https://developer.android.com/studio/), open the AVD manager (icon in top
+   right), and launch an Android virtual device of your choice.
+1. Drag the APK onto the virtual Android device to install.
+1. Open the installed DoubleDutch Simulator
+
+### Develop
 
 Refresh the extension in the simulator (`command-R`), which will attempt to reload the
-bundled Javascript from the packager now listening on port 8081.
+bundled Javascript from the packager now listening on port 8081. You can reload after making code
+edits to your Javasript.
 
 ### Developing multiple extensions
 
