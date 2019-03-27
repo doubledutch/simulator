@@ -11,7 +11,7 @@
     "react": "16.8.3",
     "react-native": "0.59.2",
     "react-native-camera": "2.1.1",
-    "react-native-mail": "^3.0.7",
+    "react-native-mail": "3.0.7",
     "react-native-video": "4.4.0",
     "react-native-youtube": "1.1.0",
     "rn-fetch-blob": "0.10.15"
