@@ -1,19 +1,18 @@
 {
   "name": "extensionsimulator",
-  "version": "2.1.0",
+  "version": "2.3.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.3",
-    "react-native-camera": "2.2.1",
+    "react-native": "0.59.4",
+    "react-native-camera": "2.2.2",
     "react-native-mail": "3.0.7",
     "react-native-permissions": "^1.1.1",
-    "react-native-video": "4.4.0",
+    "react-native-video": "4.4.1",
     "react-native-youtube": "1.1.0",
     "rn-fetch-blob": "0.10.15"
   },
