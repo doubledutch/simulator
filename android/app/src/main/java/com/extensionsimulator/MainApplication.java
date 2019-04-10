@@ -3,6 +3,8 @@ package com.extensionsimulator;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.chirag.RNMail.RNMail;
 import com.inprogress.reactnativeyoutube.ReactNativeYouTube;
 import com.brentvatne.react.ReactVideoPackage;
@@ -28,6 +30,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new AsyncStoragePackage(),
+            new RNCWebViewPackage(),
             new RNMail(),
             new ReactNativeYouTube(),
             new ReactVideoPackage(),
