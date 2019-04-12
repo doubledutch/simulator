@@ -7,7 +7,7 @@ DoubleDutch Extension Simulator
 
 Launch a React Native packager for your extension.
 
-1. Open a DoubleDutch extension project folder that is set up for `baseBundleVersion` `0.59.1`.
+1. Open a DoubleDutch extension project folder that is set up for `baseBundleVersion` `0.59.3`.
 1. From the `mobile` folder, run `npm start` (which simply invokes `react-native start --port 8081`)
 
 You can choose to use either the iOS or Android simulator (or both) as follows:
@@ -81,6 +81,6 @@ NodeJS v11.2 was used.
    1. Versions in bundles/make/package.json
    1. Review bundles/make/base.js
 
-### Updated from React Native 0.57.5 to 0.59.1
+### Updated from React Native 0.57.5 to 0.59.4
 
-1. Apply diffs from https://github.com/react-native-community/rn-diff-purge/compare/version/0.57.5...version/0.59.1
+1. Apply diffs from https://github.com/react-native-community/rn-diff-purge/compare/version/0.57.5...version/0.59.4
