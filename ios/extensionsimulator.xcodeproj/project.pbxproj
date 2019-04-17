@@ -50,6 +50,7 @@
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		F4CE0C34DD2345E78D6C78F3 /* libRNCWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1852CD408F2345A9B86ABD08 /* libRNCWebView.a */; };
 		F7B5FD0825A646D5805BEC0B /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F92BED0ADAC46078FCD742D /* libRCTVideo.a */; };
+		FF12F659C11C4D84A17AF930 /* libRNCOpenDoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD05C4F40A64329B05DF633 /* libRNCOpenDoc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -305,6 +306,13 @@
 			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
 			remoteInfo = RNImagePicker;
 		};
+		D20CCF43226693A400519435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29016DE27BA4181847ABC85 /* RNCOpenDoc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCOpenDoc;
+		};
 		D21D83262242FDE3003D9A26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -450,9 +458,11 @@
 		D2C1611821C1B1FB00196975 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		D3490FCCA45446B1AF5F14A1 /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTYouTube.xcodeproj; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; };
 		D751DC5FD4BE4D59BC0B9B4C /* RNCWebView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCWebView.xcodeproj; path = "../node_modules/react-native-webview/ios/RNCWebView.xcodeproj"; sourceTree = "<group>"; };
+		E29016DE27BA4181847ABC85 /* RNCOpenDoc.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCOpenDoc.xcodeproj; path = "../node_modules/react-native-open-doc/ios/RNCOpenDoc.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F6B7D5FA4CED4023A5A91778 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
+		FCD05C4F40A64329B05DF633 /* libRNCOpenDoc.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCOpenDoc.a; sourceTree = "<group>"; };
 		FE0202D117B14B2883A97A3C /* libRCTYouTube.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTYouTube.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -492,6 +502,7 @@
 				F4CE0C34DD2345E78D6C78F3 /* libRNCWebView.a in Frameworks */,
 				E7C272DDA98E4341A1DB1356 /* libRNCAsyncStorage.a in Frameworks */,
 				65E25FD8B4F44DCBB0CE4B16 /* libRNImagePicker.a in Frameworks */,
+				FF12F659C11C4D84A17AF930 /* libRNCOpenDoc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +702,7 @@
 				D751DC5FD4BE4D59BC0B9B4C /* RNCWebView.xcodeproj */,
 				B50C76ACCF2F4560AFBFE222 /* RNCAsyncStorage.xcodeproj */,
 				F6B7D5FA4CED4023A5A91778 /* RNImagePicker.xcodeproj */,
+				E29016DE27BA4181847ABC85 /* RNCOpenDoc.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -744,6 +756,14 @@
 			isa = PBXGroup;
 			children = (
 				D20CCE9B22663F0400519435 /* libRNImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20CCF40226693A300519435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20CCF44226693A400519435 /* libRNCOpenDoc.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -811,7 +831,7 @@
 				1852CD408F2345A9B86ABD08 /* libRNCWebView.a */,
 				36ED4D23E042446DB0B8D76F /* libRNCAsyncStorage.a */,
 				0E84AD4D8EE94FE095FA33EF /* libRNImagePicker.a */,
-				6D11B4B31E514A1E8FD53361 /* libRNDocumentPicker.a */,
+				FCD05C4F40A64329B05DF633 /* libRNCOpenDoc.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -1021,6 +1041,10 @@
 				{
 					ProductGroup = D2F6D6A6225E9F5200237BFA /* Products */;
 					ProjectRef = B50C76ACCF2F4560AFBFE222 /* RNCAsyncStorage.xcodeproj */;
+				},
+				{
+					ProductGroup = D20CCF40226693A300519435 /* Products */;
+					ProjectRef = E29016DE27BA4181847ABC85 /* RNCOpenDoc.xcodeproj */;
 				},
 				{
 					ProductGroup = D2F6D6AB225E9F5200237BFA /* Products */;
@@ -1288,6 +1312,13 @@
 			remoteRef = D20CCE9A22663F0400519435 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D20CCF44226693A400519435 /* libRNCOpenDoc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCOpenDoc.a;
+			remoteRef = D20CCF43226693A400519435 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D21D83272242FDE3003D9A26 /* libjsi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1536,12 +1567,14 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = extensionsimulatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1569,12 +1602,14 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = extensionsimulatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1604,6 +1639,7 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = extensionsimulator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1637,6 +1673,7 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = extensionsimulator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1676,11 +1713,13 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = "extensionsimulator-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1717,11 +1756,13 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = "extensionsimulator-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1757,11 +1798,13 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = "extensionsimulator-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1797,11 +1840,13 @@
 					"$(SRCROOT)/../node_modules/react-native-webview/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-open-doc/ios",
 				);
 				INFOPLIST_FILE = "extensionsimulator-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

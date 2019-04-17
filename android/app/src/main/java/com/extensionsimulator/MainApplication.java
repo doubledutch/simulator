@@ -3,6 +3,7 @@ package com.extensionsimulator;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.capriza.reactlibrary.RNCOpenDocPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.reactnativecommunity.webview.RNCWebViewPackage;
@@ -31,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNCOpenDocPackage(),
             new ImagePickerPackage(),
             new AsyncStoragePackage(),
             new RNCWebViewPackage(),
