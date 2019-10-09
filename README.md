@@ -26,6 +26,8 @@ You should no longer need to build the simulator project in XCode. In the future
 the DoubleDutch simulator app from the iOS Simulator device.
 You will at first likely see a red error screen due to not having a React Native packager running.
 
+Note: WE RECOMMEND XCODE 10
+
 ### Android
 
 1. Download the latest release of the
